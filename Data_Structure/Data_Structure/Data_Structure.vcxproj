@@ -19,7 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Codes\List\CLinkedList\CLinkedList.h" />
+    <ClInclude Include="Codes\List\DBLinkedList\DBLInkedList.h" />
+    <ClInclude Include="Codes\Stack\ArrayBaseStack.h" />
+    <ClInclude Include="Codes\Stack\ListBaseStack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codes\List\DBLinkedList\DBLinkedList.cpp" />
+    <ClCompile Include="Codes\Stack\ListBaseStack.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -15,8 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Codes\List\CLinkedList\CLinkedList.h">
+    <ClInclude Include="Codes\List\DBLinkedList\DBLInkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Codes\Stack\ArrayBaseStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Stack\ListBaseStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Codes\List\DBLinkedList\DBLinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Stack\ListBaseStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
