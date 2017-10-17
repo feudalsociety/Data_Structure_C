@@ -15,15 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Codes\List\Listmain.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Codes\List\ArrayList.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Codes\List\ArrayList.h">
+    <ClInclude Include="Codes\List\CLinkedList\CLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

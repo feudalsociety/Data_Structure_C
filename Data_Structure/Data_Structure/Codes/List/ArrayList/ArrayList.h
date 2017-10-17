@@ -15,7 +15,7 @@ typedef struct __ArrayList
 
 typedef ArrayList List;
 
-void LsitInit(List * plist);
+void ListInit(List * plist);
 void LInsert(List * plist, LData data);
 int LFirst(List * plist, LData * pdata);
 int LNext(List * plist, LData * pdata);

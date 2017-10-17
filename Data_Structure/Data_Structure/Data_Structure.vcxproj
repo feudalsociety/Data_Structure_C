@@ -19,11 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Codes\List\ArrayList.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Codes\List\ArrayList.c" />
-    <ClCompile Include="Codes\List\Listmain.c" />
+    <ClInclude Include="Codes\List\CLinkedList\CLinkedList.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
