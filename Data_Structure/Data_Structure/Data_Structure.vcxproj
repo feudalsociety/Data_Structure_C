@@ -20,12 +20,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Codes\List\DBLinkedList\DBLInkedList.h" />
-    <ClInclude Include="Codes\Stack\ArrayBaseStack.h" />
-    <ClInclude Include="Codes\Stack\ListBaseStack.h" />
+    <ClInclude Include="Codes\Queue\CircularQueue.h" />
+    <ClInclude Include="Codes\Queue\ListBaseQueue.h" />
+    <ClInclude Include="Codes\Queue\ListBaseQueue.c" />
+    <ClInclude Include="Codes\Tree\BinaryTree.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Codes\List\DBLinkedList\DBLinkedList.cpp" />
-    <ClCompile Include="Codes\Stack\ListBaseStack.cpp" />
+    <ClCompile Include="Codes\Queue\CircularQueue.c" />
+    <ClCompile Include="Codes\Tree\BinaryTree.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

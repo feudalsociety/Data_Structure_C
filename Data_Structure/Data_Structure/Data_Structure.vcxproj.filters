@@ -18,10 +18,16 @@
     <ClInclude Include="Codes\List\DBLinkedList\DBLInkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Codes\Stack\ArrayBaseStack.h">
+    <ClInclude Include="Codes\Queue\CircularQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Codes\Stack\ListBaseStack.h">
+    <ClInclude Include="Codes\Queue\ListBaseQueue.c">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Queue\ListBaseQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\Tree\BinaryTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,7 +35,10 @@
     <ClCompile Include="Codes\List\DBLinkedList\DBLinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Codes\Stack\ListBaseStack.cpp">
+    <ClCompile Include="Codes\Queue\CircularQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\Tree\BinaryTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
